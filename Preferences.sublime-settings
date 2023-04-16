@@ -1,0 +1,67 @@
+{
+	//
+	// Editor Settings
+	//
+
+	"theme": "Default Dark.sublime-theme",
+	"font_face": "MesloLGS NF",
+	"font_size": 12,
+	"mini_diff": true,
+	// Disables horizontal scrolling if enabled.
+	// May be set to true, false, or "auto", where it will be disabled for
+	// source code, and otherwise enabled.
+	"word_wrap": "true",
+    "draw_minimap_border": true,
+	"always_show_minimap_viewport": true,
+	// Valid values are "smooth", "phase", "blink" and "solid". Previous
+	// versions of Sublime Text used "smooth" by default.
+	"caret_style": "smooth",
+	"line_padding_top": 0,
+	"line_padding_bottom": 1,
+	"indent_guide_options": ["draw_active", "solid"],
+	// By default, auto complete will commit the current completion on enter.
+	// This setting can be used to make it complete on tab instead.
+	// Completing on tab is generally a superior option, as it moves
+	// ambiguity between committing the completion and inserting a newline.
+	"auto_complete_commit_on_tab": true,
+	"auto_complete_cycle": true,
+	"auto_hide_menu": true,
+	"auto_hide_tabs": true,
+	"auto_hide_status_bar": true,
+	
+	//
+	// User Interface Settings
+	//
+
+	/*"theme": "auto",*/
+	"file_tab_style": "square",	
+	"highlight_modified_tabs": true,
+	"bold_folder_labels": true,
+	"hide_tab_scrolling_buttons": true,
+	
+	// Display the git status in the status bar, requires the show_git_status
+	// setting to be enabled
+	"show_git_status_in_status_bar": true,
+	// Display file encoding in the status bar
+	"show_encoding": false,
+	// Display line endings in the status bar
+	"show_line_endings": false,
+	// Display indentation in the status bar
+	"show_indentation": false,
+	// Display syntax in the status bar
+	"show_syntax": true,
+	// Show Line, Column in the status bar in full length, compact or completely
+	// hidden. Valid values are "enabled", "compact" and "disabled"
+	"show_line_column": "enabled",
+	// Display misspelled words in the status bar
+	"show_spelling_errors": true,
+	// remember_layout makes Sublime Text start with the same layout it closed
+	// with. Only applies when hot_exit is disabled.
+	"remember_layout": true,
+
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+	"color_scheme": "Packages/JavaScriptNext - ES6 Syntax/Monokai Phoenix.tmTheme",
+}
