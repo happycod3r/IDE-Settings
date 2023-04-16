@@ -1,4 +1,4 @@
-# IDE SETTINGS
+# EDITOR SETTINGS
 
 ### VSCode configuration file.
 /settings.json
