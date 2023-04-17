@@ -69,5 +69,14 @@
     },
     "terminal.integrated.automationProfile.osx": {
     
-    }
+    },
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-1.8",
+            "path": "/mnt/chromeos/removable/X/dev/java/java-jdk.1.8.0x86-64",
+            "sources" : "/mnt/chromeos/removable/X/dev/java/java-jdk.1.8.0x86-64/src.zip",
+            "javadoc" : "https://docs.oracle.com/en/java/javase/11/docs/api",
+            "default":  true
+        },
+    ]
 }
