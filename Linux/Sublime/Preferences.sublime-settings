@@ -1,9 +1,11 @@
 {
-	//
-	// Editor Settings
-	//
-
+	"ignored_packages":
+	[
+		"SideBarHider",
+		"Vintage",
+	],
 	"theme": "Default Dark.sublime-theme",
+	"color_scheme": "Mariana.sublime-color-scheme",
 	"font_face": "MesloLGS NF",
 	"font_size": 12,
 	"mini_diff": true,
@@ -23,6 +25,7 @@
 	// This setting can be used to make it complete on tab instead.
 	// Completing on tab is generally a superior option, as it moves
 	// ambiguity between committing the completion and inserting a newline.
+	"auto_complete": true,
 	"auto_complete_commit_on_tab": true,
 	"auto_complete_cycle": true,
 	"auto_hide_menu": true,
@@ -57,11 +60,6 @@
 	"show_spelling_errors": true,
 	// remember_layout makes Sublime Text start with the same layout it closed
 	// with. Only applies when hot_exit is disabled.
-	"remember_layout": true,
-
-	"ignored_packages":
-	[
-		"Vintage",
-	],
-	"color_scheme": "Packages/JavaScriptNext - ES6 Syntax/Monokai Phoenix.tmTheme",
+	"remember_layout": true
+	
 }
