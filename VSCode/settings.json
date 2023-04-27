@@ -7,6 +7,7 @@
     "files.insertFinalNewline": true,
     "workbench.commandPalette.experimental.suggestCommands": true,
     "workbench.iconTheme": "material-icon-theme",
+    "git.openRepositoryInParentFolders": "always",
     "git.enableSmartCommit": true,
     "git.confirmSync": false,
     "gitlens.mode.statusBar.alignment": "left",
@@ -77,7 +78,7 @@
             "sources" : "/mnt/chromeos/removable/X/dev/java/java-jdk.1.8.0x86-64/src.zip",
             "javadoc" : "https://docs.oracle.com/en/java/javase/11/docs/api",
             "default":  true
-        },
+        }
     ],
     "indentRainbow.indicatorStyle": "light"
 }
