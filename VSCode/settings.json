@@ -1,105 +1,121 @@
 {
-  "[python]": {
-    "editor.formatOnType": true
-  },
-  "editor.formatOnPaste": true,
-  "editor.minimap.scale": 2,
-  "files.insertFinalNewline": true,
-  "workbench.commandPalette.experimental.suggestCommands": true,
-  "workbench.iconTheme": "vscode-icons",
-  "git.openRepositoryInParentFolders": "always",
-  "git.enableSmartCommit": true,
-  "git.confirmSync": false,
-  "gitlens.mode.statusBar.alignment": "left",
-  "gitlens.codeLens.scopes": ["document", "containers", "blocks"],
-  "window.menuBarVisibility": "toggle",
-  "tabnine.experimentalAutoImports": true,
-  "explorer.confirmDelete": false,
-  "editor.wordWrap": "on",
-  "explorer.confirmDragAndDrop": false,
-  "explorer.incrementalNaming": "smart",
-  /*--------*/
-  "terminal.integrated.fontFamily": "MesloLGS NF",
-  "security.workspace.trust.untrustedFiles": "open",
-  "terminal.integrated.copyOnSelection": true,
-  "terminal.integrated.cursorBlinking": true,
-  "terminal.integrated.cursorStyle": "line",
-  "terminal.integrated.profiles.linux": {
-    "bash": {
-      "path": "bash",
-      "icon": "terminal-bash"
+    "[python]": {
+        "editor.formatOnType": true
     },
-    "zsh": {
-      "path": "zsh"
-    },
-    "fish": {
-      "path": "fish"
-    },
-    "tmux": {
-      "path": "tmux",
-      "icon": "terminal-tmux"
-    },
-    "pwsh": {
-      "path": "pwsh",
-      "icon": "terminal-powershell"
-    }
-  },
-  "interactiveSession.editor.wordWrap": "on",
-  "terminal.integrated.defaultProfile.osx": "",
-  "terminal.integrated.fontSize": 14,
+    "editor.formatOnPaste": true,
+    "files.insertFinalNewline": true,
+    "workbench.commandPalette.experimental.suggestCommands": true,
+    "workbench.iconTheme": "vscode-icons",
+    "git.openRepositoryInParentFolders": "always",
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "gitlens.mode.statusBar.alignment": "left",
+    "gitlens.codeLens.scopes": [
+        "document",
+        "containers",
+        "blocks"
+    ],
+    "window.menuBarVisibility": "toggle",
+    "tabnine.experimentalAutoImports": true,
+    "explorer.confirmDelete": false,
+    "editor.wordWrap": "on",
+    "explorer.confirmDragAndDrop": false,
+    "explorer.incrementalNaming": "smart",
+    /*--------*/
+    "terminal.integrated.fontFamily": "MesloLGS NF",
+    "security.workspace.trust.untrustedFiles": "open",
+    "terminal.integrated.copyOnSelection": true,
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.profiles.linux": {
 
-  "workbench.colorCustomizations": {
-    "statusBar.background": "#1A1A1A",
-    "statusBar.foreground": "#a1e203",
-    "statusBar.noFolderBackground": "#212121",
-    "statusBar.debuggingBackground": "#263238",
-    "statusBar.border": "#424242",
-    "activityBar.foreground": "#a1e203",
-    "activityBar.activeBorder": "#a1e203",
-    "sideBarSectionHeader.foreground": "#EEEEEE",
-    "sideBarSectionHeader.background": "#252525",
-    "sideBarSectionHeader.activeBackground": "#212121",
-    "sideBar.background": "#212121",
-    "sideBar.foreground": "#EEEEEE",
-    "sideBar.border": "#424242"
-  },
+        "bash": {
+            "path": "bash",
+            "icon": "terminal-bash"
+        },
+        "zsh": {
+            "path": "zsh"
+        },
+        "fish": {
+            "path": "fish"
+        },
+        "tmux": {
+            "path": "tmux",
+            "icon": "terminal-tmux"
+        },
+        "pwsh": {
+            "path": "pwsh",
+            "icon": "terminal-powershell"
+        }
+    },
+    "interactiveSession.editor.wordWrap": "on",
+    "terminal.integrated.defaultProfile.osx": "",
+    "terminal.integrated.fontSize": 14,
+    
+    "workbench.colorCustomizations": {
+        "statusBar.background" : "#1A1A1A",
+        "statusBar.foreground": "#a1e203",
+        "statusBar.noFolderBackground" : "#212121",
+        "statusBar.debuggingBackground": "#263238",
+        "statusBar.border": "#424242",
+        "activityBar.foreground": "#a1e203",
+        "activityBar.activeBorder": "#a1e203",
+        "sideBarSectionHeader.foreground": "#EEEEEE",
+        "sideBarSectionHeader.background": "#252525",
+        "sideBarSectionHeader.activeBackground": "#212121",
+        "sideBar.background": "#212121",
+        "sideBar.foreground": "#EEEEEE",
+        "sideBar.border": "#424242"
+    },
 
-  "java.configuration.runtimes": [
-    {
-      "name": "JavaSE-1.8",
-      "path": "/mnt/chromeos/removable/X/dev/java/java-jdk.1.8.0x86-64",
-      "sources": "/mnt/chromeos/removable/X/dev/java/java-jdk.1.8.0x86-64/src.zip",
-      "javadoc": "https://docs.oracle.com/en/java/javase/11/docs/api",
-      "default": true
-    }
-  ],
-  "vsicons.presets.foldersAllDefaultIcon": true,
-  "editor.fontSize": 16,
-  "editor.fontFamily": "'MesloLGS NF', 'Droid Sans Mono', 'monospace', monospace",
-  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
-  "editor.codeLensFontFamily": "'MesloLGS NF'",
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.guides.bracketPairs": "active",
-  "editor.linkedEditing": true,
-  "editor.stickyScroll.enabled": true,
-  "editor.inlineSuggest.showToolbar": "always",
-  "editor.suggest.preview": true,
-  "diffEditor.codeLens": true,
-  "diffEditor.wordWrap": "on",
-  "files.autoSave": "onFocusChange",
-  "workbench.tree.indent": 16,
-  "workbench.tree.renderIndentGuides": "always",
-  "workbench.editor.closeOnFileDelete": true,
-  "workbench.editor.highlightModifiedTabs": true,
-  "workbench.editor.labelFormat": "medium",
-  "workbench.editor.scrollToSwitchTabs": true,
-  "workbench.editor.tabCloseButton": "left",
-  "workbench.editor.tabSizing": "shrink",
-  "workbench.editor.untitled.labelFormat": "name",
-  "window.restoreWindows": "preserve",
-  "security.workspace.trust.banner": "never",
-  "security.workspace.trust.startupPrompt": "never",
-  "vsintellicode.features.python.deepLearning": "enabled",
-  "emmet.triggerExpansionOnTab": true,
-  "php.validate.executablePath": "/usr/bin/php"
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-1.8",
+            "path": "/mnt/chromeos/removable/X/dev/java/java-jdk.1.8.0x86-64",
+            "sources" : "/mnt/chromeos/removable/X/dev/java/java-jdk.1.8.0x86-64/src.zip",
+            "javadoc" : "https://docs.oracle.com/en/java/javase/11/docs/api",
+            "default":  true
+        }
+    ],
+    "vsicons.presets.foldersAllDefaultIcon": true,
+    "editor.fontFamily": "'MesloLGS NF', 'Droid Sans Mono', 'monospace', monospace",
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.codeLensFontFamily": "'MesloLGS NF'",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.guides.bracketPairs": "active",
+    "editor.linkedEditing": true,
+    "editor.stickyScroll.enabled": true,
+    "editor.inlineSuggest.showToolbar": "always",
+    "editor.suggest.preview": true,
+    "diffEditor.codeLens": true,
+    "diffEditor.wordWrap": "on",
+    "files.autoSave": "onFocusChange",
+    "workbench.tree.indent": 16,
+    "workbench.tree.renderIndentGuides": "always",
+    "workbench.editor.closeOnFileDelete": true,
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.editor.labelFormat": "medium",
+    "workbench.editor.scrollToSwitchTabs": true,
+    "workbench.editor.tabCloseButton": "left",
+    "workbench.editor.tabSizing": "shrink",
+    "workbench.editor.untitled.labelFormat": "name",
+    "window.restoreWindows": "preserve",
+    "security.workspace.trust.banner": "never",
+    "security.workspace.trust.startupPrompt": "never",
+    "vsintellicode.features.python.deepLearning": "enabled",
+    "emmet.triggerExpansionOnTab": true,
+    "php.validate.executablePath": "/usr/bin/php",
+    "indentRainbow.indicatorStyle": "light",
+    "indentRainbow.lightIndicatorStyleLineWidth": 3,
+    "errorLens.excludeBySource": [
+        "css(emptyRules)"
+    ],
+    "prettier.tabWidth": 4,
+    "workbench.startupEditor": "none",
+    "editor.minimap.scale": 3,
+    "editor.minimap.autohide": true,
+    "editor.minimap.maxColumn": 140,
+    "liveServer.settings.donotVerifyTags": true,
+    "liveServer.settings.donotShowInfoMsg": true
+    
 }
