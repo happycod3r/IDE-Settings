@@ -2,33 +2,52 @@
     "[python]": {
         "editor.formatOnType": true
     },
-    "editor.formatOnPaste": true,
-    "files.insertFinalNewline": true,
-    "workbench.commandPalette.experimental.suggestCommands": true,
-    "workbench.iconTheme": "vscode-icons",
+    "python.defaultInterpreterPath": "/usr/bin/python3.9",
+    /*
+        "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-1.8",
+            "path": "/mnt/chromeos/removable/X/dev/java/java-jdk.1.8.0x86-64",
+            "sources" : "/mnt/chromeos/removable/X/dev/java/java-jdk.1.8.0x86-64/src.zip",
+            "javadoc" : "https://docs.oracle.com/en/java/javase/11/docs/api",
+            "default":  true
+        }
+    ],*/
+    "php.validate.executablePath": "/usr/bin/php",
+    "gitlens.codeLens.scopes": ["document", "containers"],
     "git.openRepositoryInParentFolders": "always",
     "git.enableSmartCommit": true,
     "git.confirmSync": false,
     "gitlens.mode.statusBar.alignment": "left",
-    "gitlens.codeLens.scopes": [
-        "document",
-        "containers",
-        "blocks"
-    ],
-    "window.menuBarVisibility": "toggle",
-    "tabnine.experimentalAutoImports": true,
-    "explorer.confirmDelete": false,
-    "editor.wordWrap": "on",
-    "explorer.confirmDragAndDrop": false,
-    "explorer.incrementalNaming": "smart",
-    /*--------*/
+    "errorLens.excludeBySource": ["css(emptyRules)"],
+    //"vsintellicode.features.python.deepLearning": "enabled",
+    "tabnine.experimentalAutoImports": false,
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.includeLanguages": {
+        "html": "html",
+        "css": "css",
+        "scss": "scss",
+        "less": "less",
+        "bash": "bash",
+        "python": "python",
+        "javascript": "javascript",
+        "typescript": "typescript",
+        "json": "json",
+        "xml": "xml",
+        "markdown": "markdown",
+        "zsh": "zsh",
+        "yaml": "yaml",
+        "dockerfile": "dockerfile",
+        "docker-compose": "docker-compose",
+        "shell": "shell"
+    },
+    "interactiveSession.editor.wordWrap": "on",
+    "terminal.integrated.fontSize": 14,
     "terminal.integrated.fontFamily": "MesloLGS NF",
-    "security.workspace.trust.untrustedFiles": "open",
     "terminal.integrated.copyOnSelection": true,
     "terminal.integrated.cursorBlinking": true,
     "terminal.integrated.cursorStyle": "line",
     "terminal.integrated.profiles.linux": {
-
         "bash": {
             "path": "bash",
             "icon": "terminal-bash"
@@ -48,14 +67,59 @@
             "icon": "terminal-powershell"
         }
     },
-    "interactiveSession.editor.wordWrap": "on",
-    "terminal.integrated.defaultProfile.osx": "",
-    "terminal.integrated.fontSize": 14,
-    
+    "security.workspace.trust.untrustedFiles": "open",
+    "security.workspace.trust.banner": "never",
+    "security.workspace.trust.startupPrompt": "never",
+    "window.menuBarVisibility": "toggle",
+    //"window.restoreWindows": "preserve",
+    "editor.wordWrap": "on",
+    "editor.formatOnPaste": false,
+    "editor.formatOnSave": false, // Doesn't work with bash formatter. Gives errors.
+    "editor.tabSize": 4,
+    "editor.detectIndentation": false,
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.guides.bracketPairs": "active",
+    "editor.codeLensFontFamily": "'MesloLGS NF'",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.linkedEditing": true,
+    "editor.stickyScroll.enabled": true,
+    "editor.inlineSuggest.showToolbar": "always",
+    "editor.suggest.preview": true,
+    "editor.minimap.scale": 3,
+    "editor.minimap.autohide": true,
+    "editor.minimap.maxColumn": 140,
+    "editor.codeActionsOnSave": {},
+    "diffEditor.codeLens": true,
+    "diffEditor.wordWrap": "on",
+    "files.insertFinalNewline": true,
+    "files.autoSave": "onFocusChange",
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true
+    },
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.incrementalNaming": "smart",
+    "workbench.tree.indent": 16,
+    "workbench.tree.renderIndentGuides": "always",
+    "workbench.editor.closeOnFileDelete": true,
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.editor.labelFormat": "medium",
+    "workbench.editor.scrollToSwitchTabs": true,
+    "workbench.editor.tabCloseButton": "right",
+    "workbench.editor.tabSizing": "shrink",
+    "workbench.editor.untitled.labelFormat": "name",
+    "workbench.commandPalette.experimental.suggestCommands": true,
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.startupEditor": "none",
     "workbench.colorCustomizations": {
-        "statusBar.background" : "#1A1A1A",
+        "statusBar.background": "#1A1A1A",
         "statusBar.foreground": "#a1e203",
-        "statusBar.noFolderBackground" : "#212121",
+        "statusBar.noFolderBackground": "#212121",
         "statusBar.debuggingBackground": "#263238",
         "statusBar.border": "#424242",
         "activityBar.foreground": "#a1e203",
@@ -67,55 +131,100 @@
         "sideBar.foreground": "#EEEEEE",
         "sideBar.border": "#424242"
     },
-
-    "java.configuration.runtimes": [
-        {
-            "name": "JavaSE-1.8",
-            "path": "/mnt/chromeos/removable/X/dev/java/java-jdk.1.8.0x86-64",
-            "sources" : "/mnt/chromeos/removable/X/dev/java/java-jdk.1.8.0x86-64/src.zip",
-            "javadoc" : "https://docs.oracle.com/en/java/javase/11/docs/api",
-            "default":  true
-        }
-    ],
     "vsicons.presets.foldersAllDefaultIcon": true,
-    "editor.fontFamily": "'MesloLGS NF', 'Droid Sans Mono', 'monospace', monospace",
-    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
-    "editor.codeLensFontFamily": "'MesloLGS NF'",
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.guides.bracketPairs": "active",
-    "editor.linkedEditing": true,
-    "editor.stickyScroll.enabled": true,
-    "editor.inlineSuggest.showToolbar": "always",
-    "editor.suggest.preview": true,
-    "diffEditor.codeLens": true,
-    "diffEditor.wordWrap": "on",
-    "files.autoSave": "onFocusChange",
-    "workbench.tree.indent": 16,
-    "workbench.tree.renderIndentGuides": "always",
-    "workbench.editor.closeOnFileDelete": true,
-    "workbench.editor.highlightModifiedTabs": true,
-    "workbench.editor.labelFormat": "medium",
-    "workbench.editor.scrollToSwitchTabs": true,
-    "workbench.editor.tabCloseButton": "left",
-    "workbench.editor.tabSizing": "shrink",
-    "workbench.editor.untitled.labelFormat": "name",
-    "window.restoreWindows": "preserve",
-    "security.workspace.trust.banner": "never",
-    "security.workspace.trust.startupPrompt": "never",
-    "vsintellicode.features.python.deepLearning": "enabled",
-    "emmet.triggerExpansionOnTab": true,
-    "php.validate.executablePath": "/usr/bin/php",
+
     "indentRainbow.indicatorStyle": "light",
     "indentRainbow.lightIndicatorStyleLineWidth": 3,
-    "errorLens.excludeBySource": [
-        "css(emptyRules)"
-    ],
     "prettier.tabWidth": 4,
-    "workbench.startupEditor": "none",
-    "editor.minimap.scale": 3,
-    "editor.minimap.autohide": true,
-    "editor.minimap.maxColumn": 140,
     "liveServer.settings.donotVerifyTags": true,
-    "liveServer.settings.donotShowInfoMsg": true
+    "liveServer.settings.donotShowInfoMsg": true,
+    "code-runner.executorMap": {
+        "javascript": "node",
+        "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+        "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "zig": "zig run",
+        "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "objective-c": "cd $dir && gcc -framework Cocoa $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "php": "php",
+        "python": "python -u",
+        "perl": "perl",
+        "perl6": "perl6",
+        "ruby": "ruby",
+        "go": "go run",
+        "lua": "lua",
+        "groovy": "groovy",
+        "powershell": "powershell -ExecutionPolicy ByPass -File",
+        "bat": "cmd /c",
+        "shellscript": "bash",
+        "fsharp": "fsi",
+        "csharp": "scriptcs",
+        "vbscript": "cscript //Nologo",
+        "typescript": "ts-node",
+        "coffeescript": "coffee",
+        "scala": "scala",
+        "swift": "swift",
+        "julia": "julia",
+        "crystal": "crystal",
+        "ocaml": "ocaml",
+        "r": "Rscript",
+        "applescript": "osascript",
+        "clojure": "lein exec",
+        "haxe": "haxe --cwd $dirWithoutTrailingSlash --run $fileNameWithoutExt",
+        "rust": "cd $dir && rustc $fileName && $dir$fileNameWithoutExt",
+        "racket": "racket",
+        "scheme": "csi -script",
+        "ahk": "autohotkey",
+        "autoit": "autoit3",
+        "dart": "dart",
+        "pascal": "cd $dir && fpc $fileName && $dir$fileNameWithoutExt",
+        "d": "cd $dir && dmd $fileName && $dir$fileNameWithoutExt",
+        "haskell": "runghc",
+        "nim": "nim compile --verbosity:0 --hints:off --run",
+        "lisp": "sbcl --script",
+        "kit": "kitc --run",
+        "v": "v run",
+        "sass": "sass --style expanded",
+        "scss": "scss --style expanded",
+        "less": "cd $dir && lessc $fileName $fileNameWithoutExt.css",
+        "FortranFreeForm": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "fortran-modern": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "fortran_fixed-form": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "fortran": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "sml": "cd $dir && sml $fileName"
+    },
+    "files.associations": {
+        "*.plug": "shellscript",
+        "*.xt": "shellscript",
+        "*.ext": "shellscript",
+        "*.xtx": "shellscript"
+    },
+    "[shellscript]": {
+        "editor.defaultFormatter": "shakram02.bash-beautify"
+    },
+    "errorLens.editorHoverPartsEnabled": {
+        "messageEnabled": true,
+        "sourceCodeEnabled": true,
+        "buttonsEnabled": true
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "bashBeautify.tabSize": 4,
+    "[html]": {
     
+    },
+    "[css]": {
+        
+    },
+    "[javascript]": {
+        
+    },
+    "[typescript]": {
+
+    },
+    "[json]": {
+
+    },
+    "[yaml]": {
+
+    }
 }
