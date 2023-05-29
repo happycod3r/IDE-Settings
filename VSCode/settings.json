@@ -124,12 +124,14 @@
         "statusBar.border": "#424242",
         "activityBar.foreground": "#a1e203",
         "activityBar.activeBorder": "#a1e203",
-        "sideBarSectionHeader.foreground": "#EEEEEE",
+        "sideBarSectionHeader.foreground": "#a1e203",
         "sideBarSectionHeader.background": "#252525",
         "sideBarSectionHeader.activeBackground": "#212121",
-        "sideBar.background": "#212121",
+        "sideBar.background": "#000000",
         "sideBar.foreground": "#EEEEEE",
-        "sideBar.border": "#424242"
+        "sideBar.border": "#424242",
+        
+        "editor.background": "#000000"
     },
     "vsicons.presets.foldersAllDefaultIcon": true,
 
@@ -226,5 +228,21 @@
     },
     "[yaml]": {
 
-    }
+    },
+    "doxdocgen.generic.authorTag": "@author {Paul McCarthy} ({paulmccarthy676@gmail.com})",
+    "doxdocgen.generic.briefTemplate": "@brief {Put a brief explanation of code here}",
+    "doxdocgen.generic.authorName": "Paul McCarthy",
+    "doxdocgen.generic.authorEmail": "paulmccarthy676@gmail.com",
+    "todo.indentation": "",
+    "todo.timekeeping.created.enabled": true,
+    "todo.tags.names": [
+        "critical",
+        "high",
+        "low",
+        "today",
+        "idea",
+        "note",
+        "reminder"
+    ],
+    "todo.file.defaultContent": "Todo:  ☐ Item @created"
 }
