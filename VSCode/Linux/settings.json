@@ -244,5 +244,8 @@
         "note",
         "reminder"
     ],
-    "todo.file.defaultContent": "Todo:  ☐ Item @created"
+    "todo.file.defaultContent": "Todo:  ☐ Item @created",
+    "markdown.extension.orderedList.autoRenumber": false,
+    "markdown.extension.print.absoluteImgPath": false,
+    "markdown.extension.print.includeVscodeStylesheets": false
 }
